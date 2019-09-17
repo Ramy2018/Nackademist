@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+li {
+  list-style: none;
+  margin-bottom: 5rem;
+}
+h3 {
+  font-weight: normal;
+}
+body {
+  background: url('./img/naka3.jpg') no-repeat center center/cover;
+}
+
+/*utility  */
+
+.container {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 8rem;
+  background: #092a4b;
+  opacity: 0.8;
+  color: #fff;
+}
+header {
+  padding: 15rem;
+
+  text-align: center;
+}
