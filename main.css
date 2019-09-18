@@ -1,3 +1,4 @@
+/* General css */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,31 +7,113 @@
 html {
   font-size: 10px;
 }
-li {
-  list-style: none;
-  margin-bottom: 5rem;
-}
+
 h3 {
   font-weight: normal;
 }
 body {
   background: url('./img/naka3.jpg') no-repeat center center/cover;
 }
-
-/*utility  */
-
+label {
+  margin-right: 1.7rem;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* section-main */
 .container {
   margin: auto;
-  width: 100%;
+  width: 90rem;
   text-align: center;
   font-size: 3rem;
-  line-height: 8rem;
-  background: #092a4b;
-  opacity: 0.8;
+  line-height: 5rem;
+  /* background: #092a4b; */
+  background: rgba(17, 19, 28, 0.8);
+  /* opacity: 0.8; */
   color: #fff;
+  border-radius: 3rem;
 }
 header {
-  padding: 15rem;
+  padding: 7rem;
 
   text-align: center;
+}
+header .heading {
+  font-size: 5rem;
+}
+header .sub-heading {
+  font-size: 2.5rem;
+}
+header .result {
+  font-size: 2.5rem;
+  padding-top: 5rem;
+}
+.container .submit-form {
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 15rem;
+  font-size: 2rem;
+}
+.container form ul li {
+  list-style: none;
+  margin: 4rem;
+}
+
+.container form ul li input[type='radio']:checked + label {
+  /* width: 2rem;
+  height: 2rem; */
+  cursor: pointer;
+  color: #dfc912;
+  font-size: 2.5rem;
+}
+
+.container form ul li label {
+  cursor: pointer;
+  font-size: 2rem;
+}
+.container form ul {
+  padding: 1.5rem;
+}
+.container .submit-form:hover {
+  color: #21031f;
+  /* background: #21031f; */
+  background: #dfc912;
+  cursor: pointer;
+}
+.nav-bar ul {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  /* background: #21031f; */
+  background: #1e1e1d;
+  color: #fff;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.nav-bar ul li a {
+  color: #fff;
+}
+.nav-bar ul li a:hover {
+  background: #dfc912;
+  color: #1e1e1d;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+footer {
+  background: #1e1e1d;
+  color: #fff;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-top: 15rem;
+}
+footer .footer-left span {
+  margin: 0.5rem;
 }

@@ -4,66 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/7653ca745b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./main.css" />
     <title>Nackademist</title>
   </head>
   <body>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li>
+          <a href=""><i class="fab fa-github"></i> GitHub</a>
+        </li>
+      </ul>
+    </nav>
     <header>
-      <h1 class="heading">Hitta din Nackademist</h1>
-      <h3 class="sub-heading">hur mycket du vet om Nacademin?</h3>
+      <h1 class="heading">Nackademist</h1>
+      <h3 class="sub-heading">Hur mycket vet du om Nacademin?</h3>
+      <h2 class="result">Du är <span></span>Nackademist</h3>
     </header>
     <section>
       <div class="container">
         <form>
-          <ol>
+          <ul>
             <li>
-              <h3>Värt började nackademin först?</h3>
+              <h3>Vart startades Nackademin först?</h3>
 
               <input type="radio" name="q1" id="q1-a" value="a" />
-              <label for="q1-a">A.Solna</label>
+              <label for="q1-a">Solna</label>
 
               <input type="radio" name="q1" id="q1-b" value="b" />
-              <label for="q1-b">B.Nacka</label>
+              <label for="q1-b">Nacka</label>
               <input type="radio" name="q1" id="q1-c" value="c" />
-              <label for="q1-c">C.Stockholm</label>
+              <label for="q1-c">Stockholm</label>
             </li>
             <li>
               <h3>När grundades skolan?</h3>
 
               <input type="radio" name="q2" id="q2-a" value="a" />
-              <label for="q2-a">A.1994</label>
+              <label for="q2-a">1994</label>
 
               <input type="radio" name="q2" id="q2-b" value="b" />
-              <label for="q2-b">B.1992</label>
+              <label for="q2-b">1992</label>
               <input type="radio" name="q2" id="q2-c" value="c" />
-              <label for="q2-c">C.2002</label>
+              <label for="q2-c">2002</label>
             </li>
             <li>
-              <h3>.Hur många yh utbildning har skolan idag?</h3>
+              <h3>Hur många YH utbildningar har skolan idag?</h3>
 
               <input type="radio" name="q3" id="q3-a" value="a" />
-              <label for="q3-a">A.55</label>
+              <label for="q3-a">55</label>
 
               <input type="radio" name="q3" id="q3-b" value="b" />
-              <label for="q3-b">B.27</label>
+              <label for="q3-b">27</label>
               <input type="radio" name="q3" id="q3-c" value="c" />
-              <label for="q3-c">C.30</label>
+              <label for="q3-c">30</label>
             </li>
             <li>
-              <h3>.Vad heter nakademin innan det blir nakademin?</h3>
+              <h3>Vad hette Nakademin innan det blev Nakademin?</h3>
 
               <input type="radio" name="q4" id="q4-a" value="a" />
-              <label for="q4-a">A.Nacka skolan</label>
+              <label for="q4-a">Nacka skolan</label>
 
               <input type="radio" name="q4" id="q4-b" value="b" />
-              <label for="q4-b">B.Nacka teknikutbildning</label>
+              <label for="q4-b">Nacka teknikutbildning</label>
               <input type="radio" name="q4" id="q4-c" value="c" />
-              <label for="q4-c">C.Nacka Academy</label>
+              <label for="q4-c">Nacka academy</label>
             </li>
-          </ol>
+          </ul>
           <input class="submit-form" type="submit" value="Submit" />
         </form>
       </div>
     </section>
+    <footer>
+      <div class="footer-left">
+        Made with <span><i class="far fa-heart"></i> & <i class="fas fa-coffee"></i></span>  in Högdalen, Stockholm
+      </div>
+      <div class="footer-right">
+          © Ramy Niranjan
+      </div>
+    </footer>
   </body>
 </html>
