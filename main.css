@@ -23,68 +23,7 @@ a {
 li {
   list-style: none;
 }
-/* section-main */
-.container {
-  margin: auto;
-  width: 90rem;
-  text-align: center;
-  font-size: 3rem;
-  line-height: 5rem;
-  /* background: #092a4b; */
-  background: rgba(17, 19, 28, 0.8);
-  /* opacity: 0.8; */
-  color: #fff;
-  border-radius: 3rem;
-}
-header {
-  padding: 7rem;
-
-  text-align: center;
-}
-header .heading {
-  font-size: 5rem;
-}
-header .sub-heading {
-  font-size: 2.5rem;
-}
-header .result {
-  font-size: 2.5rem;
-  padding-top: 5rem;
-}
-.container .submit-form {
-  border: none;
-  border-radius: 1.5rem;
-  padding: 1.5rem;
-  margin: 1rem;
-  width: 15rem;
-  font-size: 2rem;
-}
-.container form ul li {
-  list-style: none;
-  margin: 4rem;
-}
-
-.container form ul li input[type='radio']:checked + label {
-  /* width: 2rem;
-  height: 2rem; */
-  cursor: pointer;
-  color: #dfc912;
-  font-size: 2.5rem;
-}
-
-.container form ul li label {
-  cursor: pointer;
-  font-size: 2rem;
-}
-.container form ul {
-  padding: 1.5rem;
-}
-.container .submit-form:hover {
-  color: #21031f;
-  /* background: #21031f; */
-  background: #dfc912;
-  cursor: pointer;
-}
+/* nav-bar */
 .nav-bar ul {
   padding: 2rem;
   display: flex;
@@ -105,6 +44,79 @@ header .result {
   padding: 1.5rem;
   border-radius: 1.5rem;
 }
+/* header */
+header {
+  padding: 7rem;
+
+  text-align: center;
+}
+header .heading {
+  font-size: 5rem;
+}
+header .sub-heading {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+header .result {
+  display: none;
+  font-size: 5rem;
+  padding-top: 5rem;
+  color: #dfc912;
+}
+header .result .result-show {
+  margin: 1.5rem;
+}
+.container {
+  margin: auto;
+  width: 90rem;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 5rem;
+  /* background: #092a4b; */
+  background: rgba(17, 19, 28, 0.8);
+  /* opacity: 0.8; */
+  color: #fff;
+  border-radius: 3rem;
+}
+
+.container .submit-form[type='submit'] {
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  border: none;
+  text-decoration: none;
+  margin: 1.5rem;
+  outline: none;
+  font-size: 2rem;
+}
+.container .submit-form[type='submit']:hover {
+  color: #21031f;
+  text-decoration: none;
+  border-style: none;
+  background: #dfc912;
+  cursor: pointer;
+}
+.container form ul li {
+  list-style: none;
+  margin: 4rem;
+}
+
+.container form ul li input[type='radio']:checked + label {
+  cursor: pointer;
+  color: #dfc912;
+  font-size: 2.7rem;
+}
+
+.container form ul li label {
+  cursor: pointer;
+  font-size: 2rem;
+}
+.container form ul li input {
+  cursor: pointer;
+}
+.container form ul {
+  padding: 1.5rem;
+}
+
 footer {
   background: #1e1e1d;
   color: #fff;
