@@ -1,4 +1,4 @@
-const correctAnswers=['b','b','b','b']
+const correctAnswers=['c','a','a','b']
 
 const form= document.querySelector('form');
 const result=document.querySelector('.result-show')
@@ -22,7 +22,7 @@ form.addEventListener('submit',e=>{
     let timerCounter=0;
     
     let timer=setInterval(() => {
-        result.textContent = `${timerCounter} %`;
+        result.textContent = `${timerCounter}`;
         
         if(timerCounter===score){
             
