@@ -22,7 +22,7 @@ form.addEventListener('submit',e=>{
     let timerCounter=0;
     
     let timer=setInterval(() => {
-        result.textContent = `${timerCounter}`;
+        result.textContent = `${timerCounter}%`;
         
         if(timerCounter===score){
             
