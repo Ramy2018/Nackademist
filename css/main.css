@@ -16,6 +16,7 @@ body {
 }
 label {
   margin-right: 1.7rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a {
   text-decoration: none;
@@ -58,6 +59,7 @@ header .heading {
 header .sub-heading {
   font-size: 2.5rem;
   margin-bottom: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header .result {
   display: none;
