@@ -30,7 +30,7 @@ form.addEventListener('submit',e=>{
         }else{
             timerCounter++
         }
-    }, 10);
+    }, 20);
     
     
 })
